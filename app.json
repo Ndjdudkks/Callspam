@@ -1,0 +1,49 @@
+{
+    "name": "s",
+    "description": "s",
+    "keywords": [
+        "py-tgcalls",
+        "pyrogram"
+    ],
+    "env": {
+        "API_ID": {
+            "description": "قم بوضع الايبي ايدي هنا",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "قم بوضع الايبي هاش",
+            "required": true,
+            "value": ""
+        },
+        "SESSION_STRING": {
+            "description": "قم بوضع كود الجلسة بايروجرام 2.0",
+            "required": true,
+            "value": ""
+        },
+        "CHAT_LINK": {
+            "description": "قم بوضع رابط قروبك",
+            "required": true,
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    },
+    "stack": "container"
+}
