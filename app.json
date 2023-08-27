@@ -9,17 +9,17 @@
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
             "required": true,
-            "value": ""
+            "value": "1691922"
         },
         "API_HASH": {
             "description": "قم بوضع الايبي هاش",
             "required": true,
-            "value": ""
+            "value": "f829257ae75ada5a2da4475474c50013"
         },
         "SESSION_STRING": {
             "description": "قم بوضع كود الجلسة بايروجرام 2.0",
             "required": true,
-            "value": ""
+            "value": "BAAZ0RIAsNaA7tlQoTGUyHzupEmRLyhXgZXCd6Zzfk0OknIeAef3568laFo6tH8p_HvAOJYcCixJVXPTs71waHcMV37UTPFTsveTnvETwKXxzt6RO-Qt1hCA2UbETbezF75MrW6URYVdDBgJHiiKb0j-Pm4tTGl_9Hor-ey_hy67vBkc5Mki0JDoFh8NZF9DBsOlx1sELajZIz2vUjd8wSyQl_nra6UyWNDSe7HyhoNpNdSyUH3FcufVVgnDCMvwFLKB8RjTiUUCADpMzVmt46b7KNYx5luFWzPNyVuak8P7xpQ3unjs3Nz-L789_40XHRLll_gvlRUqy20JpdzC-3F8xjVTTwAAAAA7TSngAA"
         },
         "CHAT_LINK": {
             "description": "قم بوضع رابط قروبك",
