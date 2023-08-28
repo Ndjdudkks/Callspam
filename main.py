@@ -58,6 +58,15 @@ async def joinChat(c: Client, m: types.Message):
             pass
     return await apps[0].send_message(m.chat.id, f"Successfully Joined to {chat_id}", reply_to_message_id=m.id)
 
+
+
+
+@app.on_message(filters.command("start"))
+def start_command(client, message):
+    message.edit("Hello world!")
+
+
+
 @app.on_message(filters.regex("^leave ") & filters.me)
 async def leaveChat(c: Client, m: types.Message):
     chat = m.text.split()[1].replace("@", "")
